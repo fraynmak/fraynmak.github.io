@@ -1,0 +1,167 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+
+body {
+	font-family: 'Roboto', sans-serif,Baron Neue,"Helvetica Neue",Helvetica,Arial;
+	font-size: 24px;
+	line-height: 3.2em;
+	font-weight: 900;
+
+}
+
+header {
+	box-sizing: content-box;
+	font-family: Baron Neue,"Helvetica Neue",Helvetica,Arial;
+	text-transform: uppercase;
+	padding: 3em 5em;
+	background: #36D1DC;  
+	background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav {
+	margin: 0 auto;
+}
+
+
+nav .menu {
+	display: none;
+}
+
+a {
+	display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+	color: white;
+	width: 70%;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+h1.intro1 {
+	font-size: 2em;
+	color: white;
+}
+
+
+h1.intro2 {
+	font-size: 2em;
+}
+
+h2.work {
+	font-size: 2em;
+	font-family: Baron Neue,"Helvetica Neue",Helvetica,Arial;
+	margin: 5rem;
+	text-align: center;
+}
+
+h3 {
+	padding-top: 2em;
+	text-align: center;
+}
+
+span#my-name {
+	font-size: 2.2em;
+	font-weight: bolder;
+	color: white;
+}
+
+span#name {
+	font-size: 2.2em;
+	font-weight: bolder;
+	color: white;
+}
+
+span#influencer {
+	text-decoration: line-through;
+	color: rgba(237, 233, 238, 0.8);
+}
+
+.material-icons.md-48 { 
+	font-size: 3em;
+	width: 60%;  
+	color: black;
+	-moz-animation: bounce 2s infinite;
+  	-webkit-animation: bounce 2s infinite;
+  	animation: bounce 2s infinite;
+ }
+
+ #card-container {
+ 	background-color: #f0f0f0;
+
+ }
+
+.card-items {
+	display: flex;
+  	padding: 3rem;
+  	@media(min-width: 40rem) {
+    	width: 49%;
+  	}
+  	@media(min-width: 56rem) {
+    	width: 33.3333%;
+  	}
+
+
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  margin: 0.3em;
+  text-align: center;
+}
+
+a.card-link {
+	color: black;
+	font-size: 1em;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+#items {
+	display: flex;
+	justify-content: space-around;
+	margin: 3em;
+}
+
+.item-1 {
+	padding-top: 1em;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+ @keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+
+
+

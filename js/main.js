@@ -1,7 +1,10 @@
 console.log('jquery is loaded');
+
+
+
 $(document).ready( function() {
 
-  var TxtRotate = function(el, toRotate, period) {
+    var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
@@ -9,6 +12,7 @@ $(document).ready( function() {
   this.txt = '';
   this.tick();
   this.isDeleting = false;
+  console.log("txtrotate")
 };
 
 TxtRotate.prototype.tick = function() {
@@ -82,6 +86,7 @@ window.onload = function() {
   $('#introduction').hide();
 }
 });
+
 
 
 

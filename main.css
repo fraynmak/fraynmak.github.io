@@ -12,11 +12,6 @@ body {
     z-index: 0;
 }
 
-.js .container {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-}
 .page {
     padding: 6.5em;
     background: #66c6ff;
@@ -34,7 +29,7 @@ body {
 }
 
 .js .intro-page {
-    visibility: visible;
+    visibility: hidden;
     position: relative;
 }
 
@@ -63,24 +58,9 @@ body {
     color: azure;
 }
 
-.wrapper {
-    font-size: 5.5vh;
-	line-height: 1.25;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	height: 100%;
-	margin: 0 auto;
-	max-width: 800px;
-	padding: 1em;
-	-webkit-box-align: end;
-	-ms-flex-align: end;
-	align-items: flex-end;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
+html {
+    display: block;
+}
+::after,::before {
+    box-sizing: border-box;
 }

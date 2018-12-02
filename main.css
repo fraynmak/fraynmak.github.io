@@ -23,11 +23,6 @@ body {
     flex-direction: column;
 }
 
-.page .intro-page {
-    box-sizing: border-box;
-    display: block;
-}
-
 .js .page {
     position: absolute;
     top: 0%;
@@ -37,7 +32,7 @@ body {
     z-index: 1;
 }
 
-.js .another-page {
+.js .intro-page {
     visibility: hidden;
     position: relative;
 }

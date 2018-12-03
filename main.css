@@ -29,7 +29,7 @@ body {
 }
 
 .js .intro-page {
-    visibility: visible;
+    visibility: hidden;
     position: relative;
 }
 

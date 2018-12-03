@@ -58,9 +58,3 @@ body {
     color: azure;
 }
 
-html {
-    display: block;
-}
-::after,::before {
-    box-sizing: border-box;
-}

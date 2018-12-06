@@ -1,28 +1,188 @@
-html,
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0%;
-    padding: 0%;
-    min-height: 100vh;
-    background: #0c54d9;
+html, body {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 20%;
+	padding: 0%;
+	background-color:
+	 #3778f1;
+	 overflow-x: hidden;
+	 overflow-y: scroll;
 }
 
-.container {
-    position: relative;
-    height: 100vh;
+.intro-page {
+	background-color: #115eec;
+	z-index: auto;
+	background-attachment: fixed;
+	color: #222f3e;
+	font-family: 'Roboto', sans-serif;
+	/* Set your own height: percents, ems, whatever! */
+	/* Set your own width: percents, ems, whatever! */
+	overflow: auto;
+	/* Recommended in case content is larger than the container */
+	margin: auto;
+	/* Center the item vertically & horizontally */
+	position: absolute;
+	/* Break it out of the regular flow */
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	/* Set the bounds in which to center it, relative to its parent/container */
 }
 
-.pages {
-    position: relative;
-    height: 100vh;
-    width: 100vh;
+.intro {
+	width: 65%;
+	font-size: 3vh;
+	margin: 6.5em;
+	line-height: 2.7em;
 }
 
-.page {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
+.pagenav {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	margin: 3%;
 }
+
+li {
+	padding-left: 12vw;
+}
+
+/*toggle-icon*/
+
+.toggle-icon {
+	padding-left: 15vw;
+	display: block;
+	position: relative;
+	width: 100%;
+	-webkit-transition: margin 600ms;
+	-moz-transition: margin 600ms;
+	transition: margin 600ms;
+	cursor: pointer;
+}
+
+.toggle-icon .bar {
+	display: block;
+	width: 3.8em;
+	height: 0.2em;
+	margin: 0.9em;
+	border-right: 2.8em solid #fff;
+	border-left: 0.6em solid #d6d6d6;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition-property: -webkit-transform, margin, border-right-color, box-shadow;
+	-moz-transition-property: -moz-transform, margin, border-right-color, box-shadow;
+	transition-property: transform, margin, border-right-color, box-shadow;
+	-webkit-transition-duration: 600ms;
+	-moz-transition-duration: 600ms;
+	transition-duration: 600ms;
+}
+
+.toggle-icon .bar:nth-of-type(1) {
+	-webkit-transition: opacity 300ms;
+	-moz-transition: opacity 300ms;
+	transition: opacity 300ms;
+}
+
+.toggle-icon .bar:nth-of-type(2) {
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+
+/*pushed*/
+
+.pushed .toggle-icon {
+	margin: 0 0 0.7em;
+}
+
+.pushed .bar:nth-of-type(1) {
+	opacity: 0;
+}
+
+.pushed .bar:nth-of-type(2) {
+	margin-left: 1.4em;
+	-webkit-transform: rotate(-137deg) translateY(-1.5em);
+	-moz-transform: rotate(-137deg) translateY(-1.5em);
+	-ms-transform: rotate(-137deg) translateY(-1.5em);
+	-o-transform: rotate(-137deg) translateY(-1.5em);
+	transform: rotate(-137deg) translateY(-1.5em);
+}
+
+.pushed .bar:nth-of-type(3) {
+	margin-left: 0.5em;
+	-webkit-transform: rotate(-42deg);
+	-moz-transform: rotate(-42deg);
+	-ms-transform: rotate(-42deg);
+	-o-transform: rotate(-42deg);
+	transform: rotate(-42deg);
+}
+
+.pushed .toggle-icon:hover .bar:nth-of-type(2) {
+	border-right-color: #e9b8b9;
+	box-shadow: 0.4em 0 0.6em 0.1em rgba(205, 40, 44, 0.75);
+}
+
+.pushed .toggle-icon:hover .bar:nth-of-type(3) {
+	border-right-color: #ddf1da;
+	box-shadow: 0.4em 0 0.6em 0.1em rgba(83, 228, 68, 0.65);
+}
+
+#nav-container {
+	display: flex-start;
+	padding: 2%;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	list-style-type: none;
+	display: inline-flex;
+	color: aliceblue;
+	font-size: 3.5vh;
+}
+
+.hidden {
+	display: none;
+}
+
+a:link {
+	/* Applies to all unvisited links */
+	text-decoration: none;
+	font-weight: lighter;
+	color: white;
+	transition: 0.3s;
+}
+
+a:visited {
+	/* Applies to all visited links */
+	text-decoration: none;
+	font-weight: lighter;
+	color: white;
+}
+
+a:hover {
+	/* Applies to links under the pointer */
+	font-weight: lighter;
+	color: #fff;
+	border-bottom: 2px solid white;
+	cursor: pointer;
+}
+
+a:active {
+	/* Applies to activated links */
+	text-decoration: none;
+	font-weight: lighter;
+	color: white;
+}
+.on {
+	
+display: visible;
+	}
+
+	

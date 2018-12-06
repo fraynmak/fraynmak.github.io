@@ -1,33 +1,51 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="main.css">
-        <title>Document</title>
-    </head>
-    <body>
-        <main class="container">
-            <div class="pages">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="pages">
             <div class="page intro-page">
-                <h1>Hello. This is <span class="myname">Feyn Mak</span>. A year one engineering student based in <span style="color: #be0e2a">Singapore.</span> A passionate individual interested in <span style="color: #5a5c63" >technology</span>, <span style="color: #9c88ff">data</span>,<span style="color: #f4e11c"> design.</span>  
-                    I am inspired to build amazing things for people and also, for a better world.
-                </h1>
+                <div class="intro">
+                    <h1>Hello. This is <span style="color: #ffffff">Feyn Mak</span><br> A year one engineering student
+                        based in <span style="color: #ff6b81">Singapore.</span> A passionate individual interested in
+                        <span style="color: #ffffff">technology</span>, <span style="color: #9c88ff">data</span>,<span
+                            style="color: #f4e11c"> design.</span>
+                        <br>I am inspired to build amazing things for people and also, for a better world.
+                    </h1>
+                </div>
             </div>
             <div class="page another-page">
-                <h1>Education</h1>
             </div>
+        </div>
+        <nav class="pagenav">
+            <div id="nav-container">
+                <ul role="navigation" class="hidden">
+                    <li><a href="#">work</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">resume</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div><!-- /nav-container -->
+            <div id="nav-icon">
+                <div class="toggle-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div><!-- /toggle-icon -->
             </div>
-            <nav class="pagenav">
-                //buttons which trigger overlay effect
-            </nav>
-            <div class="revealer revealer-right">
-                <div class="revealer-layer"></div>
-                </div class="revealer-layer"></div>
-                <div class="revealer-layer"></div>
-            </div>
-        </main>
-        <script src="main.js"></script>
-    </body>
-    </html>
+        </nav>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

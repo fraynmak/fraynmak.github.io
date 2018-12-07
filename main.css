@@ -35,6 +35,7 @@ html, body {
 	font-size: 3vh;
 	margin: 6.5em;
 	line-height: 2.7em;
+	transition-delay: 0.2s;
 }
 
 .pagenav {

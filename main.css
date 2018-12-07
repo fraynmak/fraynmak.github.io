@@ -28,7 +28,6 @@ html, body {
 	right: 0;
 	/* Set the bounds in which to center it, relative to its parent/container */
 	transition-delay: 200s;
-
 }
 
 .intro {

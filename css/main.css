@@ -315,3 +315,9 @@ a:active {
   #mycontact {
 	  background: #222f3e;
   }
+
+  @media screen and (min-width: 900px) {
+	  .pages {
+		  padding: 1rem 3rem;
+	  }
+  }
